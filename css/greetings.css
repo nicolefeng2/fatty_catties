@@ -1,0 +1,64 @@
+html {
+    margin: 0 px;
+    padding: 0 px;
+	background-image: url('../pics/greetings.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0% 15%;
+    background-size: cover;
+}
+#logo{
+    height: 100px;
+	width: 100px;
+	position: absolute;
+	left: 25px;
+	bottom: 25px;
+	background-image: url('../pics/catLogo.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#sleepyCat {
+    background-image: url('../pics/sleepyCat.png');
+    background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	right: 60%;
+	top: 50%;
+    width: 350px;
+    height: 350px;
+}
+#orangeCat {
+    background-image: url('../pics/orangeCat.png');
+    background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	right: 35%;
+	top: 50%;
+    width: 350px;
+    height: 350px;
+}
+#angryCat {
+    background-image: url('../pics/angryCat.png');
+    background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	right: 10%;
+	top: 50%;
+    width: 350px;
+    height: 350px;
+}
+.btn {
+	align-self: center;
+
+	width: 200px;
+	height: 200px;
+
+	font-size: 30px;
+
+	background-color: Transparent;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+	overflow: hidden;
+    outline: none;
+}

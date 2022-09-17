@@ -1,0 +1,60 @@
+html {
+    margin: 0 px;
+    padding: 0 px;
+	background-image: url('../pics/congrats.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+    background-color:#171521;
+    /* z-index: 0; */
+}
+
+.btn {
+    align-self: center;
+    width: 300px;
+    height: 300px;
+	background-color: Transparent;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+	overflow: hidden;
+    outline: none;
+}
+
+#success {
+    background-image: url('../pics/backToTimer.png');
+    background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	right: 5%;
+	top: 62%;
+}
+
+#logo {
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	left: 25px;
+	bottom: 25px;
+	background-image: url('../pics/catLogo.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#image {
+	width: 100%;
+    position: center;
+}
+
+#clickme {
+    background-repeat: no-repeat;
+	background-size: cover;
+	right: 10%;
+	top: 25%;
+	background-image: url('../pics/reveal.png');
+	align-self: center;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}

@@ -1,0 +1,44 @@
+html {
+    margin: 0 px;
+    padding: 0 px;
+	background-image: url('../pics/home.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0% 15%;
+    background-size: cover;
+}
+#logo{
+    height: 100px;
+	width: 100px;
+	position: absolute;
+	left: 25px;
+	bottom: 25px;
+	background-image: url('../pics/catLogo.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#go{
+    height: 300px;
+	width: 300px;
+	position: absolute;
+	left: 500px;
+	bottom: 90px;
+	background-image: url('../pics/go.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.btn {
+	align-self: center;
+
+	width: 200px;
+	height: 200px;
+
+	font-size: 30px;
+
+	background-color: Transparent;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+	overflow: hidden;
+    outline: none;
+}

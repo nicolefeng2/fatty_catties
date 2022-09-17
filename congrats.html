@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href = "css/congrats.css">
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <title>Fatty Catties</title>
+</head>
+
+<body>
+    <script>
+        function change() {
+          document.getElementById("clickme").disabled = true;
+          var images = ['../pics/rocket.png', '../pics/sashimi.png', '../pics/collar.png', '../pics/helmet.png', '../pics/alien.png'];
+          var img = document.getElementById("image");
+          img.src = images[Math.floor(Math.random() * 5)];
+          return false;
+        }
+    </script>
+    <a href="home.html"><button id="logo" class="btn"></button></a>
+    <a href="timer.html"><button id="success" class="btn"></button></a>
+    <img src="../pics/congrats.png" id = "image">
+    <button id="clickme" class="btn" onclick="change();"></button>
+    <script>
+        const btn = document.getElementById('clickme');
+        btn.addEventListener('click', () => {
+        btn.style.display = 'none';
+        });
+    </script>
+</body>
+</html>

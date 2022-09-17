@@ -1,0 +1,45 @@
+html {
+	background-image: url('../pics/sorry.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color:#171521;
+
+}
+
+.btn {
+    align-self: center;
+
+    width: 200px;
+    height: 150px;
+
+	background-color: Transparent;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+	overflow: hidden;
+    outline: none;
+}
+
+#sorry {
+    background-image: url('../pics/backToTimer.png');
+    background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	right: 10%;
+	top: 60%;
+    width: 300px;
+    height: 300px;
+}
+
+#logo {
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	left: 25px;
+	bottom: 25px;
+	background-image: url('../pics/catLogo.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}

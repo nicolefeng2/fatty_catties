@@ -1,0 +1,151 @@
+html {
+	background-image: url('../pics/timer.png');
+	height: 50%;
+	position: center;
+	background-repeat: no-repeat;
+	background-size: cover;;
+}
+
+#image {
+	position: relative;
+	top: -150px;
+	width: 75%;
+	padding-left: 12.5%;
+	z-index: -1;
+}
+
+#container {
+	position: relative;
+	top: 130%;
+	height: 200px;
+	width: 700px;
+	margin: 0 auto;
+	z-index: 2;
+
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+}
+
+.label {
+	margin: 0;
+
+	justify-self: center;
+	align-self: center;
+	font-size: 30px;
+	font-family: permanent marker;
+    color: white;
+}
+
+#hour-label
+{
+	grid-area: 1 / 2 / 1 / 3;
+}
+
+#min-label {
+	grid-area: 1 / 3 / 1 / 4;
+}
+
+#sec-label {
+	grid-area: 1 / 4 / 1 / 5;
+}
+
+.time {
+	justify-self: center;
+	align-self: center;
+
+	border: none;
+	background-color:#171521;
+	font-family: permanent marker;
+	font-size: 50px;
+	width: 70px;
+	height: 50px;
+	color: white;
+}
+
+#hour {
+	grid-area: 2 / 2 / 2 / 3;
+}
+
+.semicolon {
+	justify-self: center;
+	align-self: center;
+
+	font-family: permanent marker;
+	font-size: 30px;
+	margin: 0;
+	color: white;
+}
+
+#p1 {
+	grid-area: 2 / 2 / 2 / 4;
+}
+
+#minute {
+	grid-area: 2 / 3 / 2 / 4;
+}
+
+#p2 {
+	grid-area: 2 / 3 / 2 / 5;
+}
+
+#sec {
+	grid-area: 2 / 4 / 2 / 5;
+}
+
+.btn {
+	align-self: center;
+
+	width: 140px;
+	height: 80px;
+
+	font-size: 30px;
+
+	background-color: Transparent;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+	overflow: hidden;
+	outline: none;
+}
+
+#start {
+	background-image: url('../pics/start.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	right: 20%;
+	top: 75%;
+    width: 200px;
+    height: 200px;
+}
+
+#reset {
+	background-image: url('../pics/reset.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	right: 70%;
+	top: 75%;
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+	font-family: Permanent marker;
+	font-weight: 300;
+	font-size: 50pt;
+	font-style: normal;
+    color: white;
+}
+
+#logo {
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	left: 25px;
+	bottom: 25px;
+	background-image: url('../pics/catLogo.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
